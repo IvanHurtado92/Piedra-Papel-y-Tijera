@@ -1,0 +1,36 @@
+C:\Users\IvanH\OneDrive - Universidad Autónoma de Aguascalientes\Documentos\ESCUELA\2DO SEMESTRE\LENGUAJES DE COMPUTACIÓN II\C#\PARCIAL 3\PPT\PPT\bin\Debug\net6.0-windows\PPT.exe
+C:\Users\IvanH\OneDrive - Universidad Autónoma de Aguascalientes\Documentos\ESCUELA\2DO SEMESTRE\LENGUAJES DE COMPUTACIÓN II\C#\PARCIAL 3\PPT\PPT\bin\Debug\net6.0-windows\PPT.deps.json
+C:\Users\IvanH\OneDrive - Universidad Autónoma de Aguascalientes\Documentos\ESCUELA\2DO SEMESTRE\LENGUAJES DE COMPUTACIÓN II\C#\PARCIAL 3\PPT\PPT\bin\Debug\net6.0-windows\PPT.runtimeconfig.json
+C:\Users\IvanH\OneDrive - Universidad Autónoma de Aguascalientes\Documentos\ESCUELA\2DO SEMESTRE\LENGUAJES DE COMPUTACIÓN II\C#\PARCIAL 3\PPT\PPT\bin\Debug\net6.0-windows\PPT.dll
+C:\Users\IvanH\OneDrive - Universidad Autónoma de Aguascalientes\Documentos\ESCUELA\2DO SEMESTRE\LENGUAJES DE COMPUTACIÓN II\C#\PARCIAL 3\PPT\PPT\bin\Debug\net6.0-windows\ref\PPT.dll
+C:\Users\IvanH\OneDrive - Universidad Autónoma de Aguascalientes\Documentos\ESCUELA\2DO SEMESTRE\LENGUAJES DE COMPUTACIÓN II\C#\PARCIAL 3\PPT\PPT\bin\Debug\net6.0-windows\PPT.pdb
+C:\Users\IvanH\OneDrive - Universidad Autónoma de Aguascalientes\Documentos\ESCUELA\2DO SEMESTRE\LENGUAJES DE COMPUTACIÓN II\C#\PARCIAL 3\PPT\PPT\obj\Debug\net6.0-windows\PPT.csproj.AssemblyReference.cache
+C:\Users\IvanH\OneDrive - Universidad Autónoma de Aguascalientes\Documentos\ESCUELA\2DO SEMESTRE\LENGUAJES DE COMPUTACIÓN II\C#\PARCIAL 3\PPT\PPT\obj\Debug\net6.0-windows\PPT.Form1.resources
+C:\Users\IvanH\OneDrive - Universidad Autónoma de Aguascalientes\Documentos\ESCUELA\2DO SEMESTRE\LENGUAJES DE COMPUTACIÓN II\C#\PARCIAL 3\PPT\PPT\obj\Debug\net6.0-windows\PPT.csproj.GenerateResource.cache
+C:\Users\IvanH\OneDrive - Universidad Autónoma de Aguascalientes\Documentos\ESCUELA\2DO SEMESTRE\LENGUAJES DE COMPUTACIÓN II\C#\PARCIAL 3\PPT\PPT\obj\Debug\net6.0-windows\PPT.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\IvanH\OneDrive - Universidad Autónoma de Aguascalientes\Documentos\ESCUELA\2DO SEMESTRE\LENGUAJES DE COMPUTACIÓN II\C#\PARCIAL 3\PPT\PPT\obj\Debug\net6.0-windows\PPT.AssemblyInfoInputs.cache
+C:\Users\IvanH\OneDrive - Universidad Autónoma de Aguascalientes\Documentos\ESCUELA\2DO SEMESTRE\LENGUAJES DE COMPUTACIÓN II\C#\PARCIAL 3\PPT\PPT\obj\Debug\net6.0-windows\PPT.AssemblyInfo.cs
+C:\Users\IvanH\OneDrive - Universidad Autónoma de Aguascalientes\Documentos\ESCUELA\2DO SEMESTRE\LENGUAJES DE COMPUTACIÓN II\C#\PARCIAL 3\PPT\PPT\obj\Debug\net6.0-windows\PPT.csproj.CoreCompileInputs.cache
+C:\Users\IvanH\OneDrive - Universidad Autónoma de Aguascalientes\Documentos\ESCUELA\2DO SEMESTRE\LENGUAJES DE COMPUTACIÓN II\C#\PARCIAL 3\PPT\PPT\obj\Debug\net6.0-windows\PPT.dll
+C:\Users\IvanH\OneDrive - Universidad Autónoma de Aguascalientes\Documentos\ESCUELA\2DO SEMESTRE\LENGUAJES DE COMPUTACIÓN II\C#\PARCIAL 3\PPT\PPT\obj\Debug\net6.0-windows\ref\PPT.dll
+C:\Users\IvanH\OneDrive - Universidad Autónoma de Aguascalientes\Documentos\ESCUELA\2DO SEMESTRE\LENGUAJES DE COMPUTACIÓN II\C#\PARCIAL 3\PPT\PPT\obj\Debug\net6.0-windows\PPT.pdb
+C:\Users\IvanH\OneDrive - Universidad Autónoma de Aguascalientes\Documentos\ESCUELA\2DO SEMESTRE\LENGUAJES DE COMPUTACIÓN II\C#\PARCIAL 3\PPT\PPT\obj\Debug\net6.0-windows\PPT.genruntimeconfig.cache
+C:\Users\IvanH\OneDrive - Universidad Autónoma de Aguascalientes\Documentos\ESCUELA\2DO SEMESTRE\LENGUAJES DE COMPUTACIÓN II\C#\PARCIAL 3\PPT\PPT\obj\Debug\net6.0-windows\PPT.Properties.Resources.resources
+C:\Users\IvanH\OneDrive - Universidad Autónoma de Aguascalientes\Documentos\ESCUELA\2DO SEMESTRE\LENGUAJES DE COMPUTACIÓN II\C#\Proyecto\PPT\PPT\bin\Debug\net6.0-windows\PPT.exe
+C:\Users\IvanH\OneDrive - Universidad Autónoma de Aguascalientes\Documentos\ESCUELA\2DO SEMESTRE\LENGUAJES DE COMPUTACIÓN II\C#\Proyecto\PPT\PPT\bin\Debug\net6.0-windows\PPT.deps.json
+C:\Users\IvanH\OneDrive - Universidad Autónoma de Aguascalientes\Documentos\ESCUELA\2DO SEMESTRE\LENGUAJES DE COMPUTACIÓN II\C#\Proyecto\PPT\PPT\bin\Debug\net6.0-windows\PPT.runtimeconfig.json
+C:\Users\IvanH\OneDrive - Universidad Autónoma de Aguascalientes\Documentos\ESCUELA\2DO SEMESTRE\LENGUAJES DE COMPUTACIÓN II\C#\Proyecto\PPT\PPT\bin\Debug\net6.0-windows\PPT.dll
+C:\Users\IvanH\OneDrive - Universidad Autónoma de Aguascalientes\Documentos\ESCUELA\2DO SEMESTRE\LENGUAJES DE COMPUTACIÓN II\C#\Proyecto\PPT\PPT\bin\Debug\net6.0-windows\ref\PPT.dll
+C:\Users\IvanH\OneDrive - Universidad Autónoma de Aguascalientes\Documentos\ESCUELA\2DO SEMESTRE\LENGUAJES DE COMPUTACIÓN II\C#\Proyecto\PPT\PPT\bin\Debug\net6.0-windows\PPT.pdb
+C:\Users\IvanH\OneDrive - Universidad Autónoma de Aguascalientes\Documentos\ESCUELA\2DO SEMESTRE\LENGUAJES DE COMPUTACIÓN II\C#\Proyecto\PPT\PPT\obj\Debug\net6.0-windows\PPT.csproj.AssemblyReference.cache
+C:\Users\IvanH\OneDrive - Universidad Autónoma de Aguascalientes\Documentos\ESCUELA\2DO SEMESTRE\LENGUAJES DE COMPUTACIÓN II\C#\Proyecto\PPT\PPT\obj\Debug\net6.0-windows\PPT.Form1.resources
+C:\Users\IvanH\OneDrive - Universidad Autónoma de Aguascalientes\Documentos\ESCUELA\2DO SEMESTRE\LENGUAJES DE COMPUTACIÓN II\C#\Proyecto\PPT\PPT\obj\Debug\net6.0-windows\PPT.Properties.Resources.resources
+C:\Users\IvanH\OneDrive - Universidad Autónoma de Aguascalientes\Documentos\ESCUELA\2DO SEMESTRE\LENGUAJES DE COMPUTACIÓN II\C#\Proyecto\PPT\PPT\obj\Debug\net6.0-windows\PPT.csproj.GenerateResource.cache
+C:\Users\IvanH\OneDrive - Universidad Autónoma de Aguascalientes\Documentos\ESCUELA\2DO SEMESTRE\LENGUAJES DE COMPUTACIÓN II\C#\Proyecto\PPT\PPT\obj\Debug\net6.0-windows\PPT.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\IvanH\OneDrive - Universidad Autónoma de Aguascalientes\Documentos\ESCUELA\2DO SEMESTRE\LENGUAJES DE COMPUTACIÓN II\C#\Proyecto\PPT\PPT\obj\Debug\net6.0-windows\PPT.AssemblyInfoInputs.cache
+C:\Users\IvanH\OneDrive - Universidad Autónoma de Aguascalientes\Documentos\ESCUELA\2DO SEMESTRE\LENGUAJES DE COMPUTACIÓN II\C#\Proyecto\PPT\PPT\obj\Debug\net6.0-windows\PPT.AssemblyInfo.cs
+C:\Users\IvanH\OneDrive - Universidad Autónoma de Aguascalientes\Documentos\ESCUELA\2DO SEMESTRE\LENGUAJES DE COMPUTACIÓN II\C#\Proyecto\PPT\PPT\obj\Debug\net6.0-windows\PPT.csproj.CoreCompileInputs.cache
+C:\Users\IvanH\OneDrive - Universidad Autónoma de Aguascalientes\Documentos\ESCUELA\2DO SEMESTRE\LENGUAJES DE COMPUTACIÓN II\C#\Proyecto\PPT\PPT\obj\Debug\net6.0-windows\PPT.dll
+C:\Users\IvanH\OneDrive - Universidad Autónoma de Aguascalientes\Documentos\ESCUELA\2DO SEMESTRE\LENGUAJES DE COMPUTACIÓN II\C#\Proyecto\PPT\PPT\obj\Debug\net6.0-windows\ref\PPT.dll
+C:\Users\IvanH\OneDrive - Universidad Autónoma de Aguascalientes\Documentos\ESCUELA\2DO SEMESTRE\LENGUAJES DE COMPUTACIÓN II\C#\Proyecto\PPT\PPT\obj\Debug\net6.0-windows\PPT.pdb
+C:\Users\IvanH\OneDrive - Universidad Autónoma de Aguascalientes\Documentos\ESCUELA\2DO SEMESTRE\LENGUAJES DE COMPUTACIÓN II\C#\Proyecto\PPT\PPT\obj\Debug\net6.0-windows\PPT.genruntimeconfig.cache
