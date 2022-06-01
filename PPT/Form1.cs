@@ -17,15 +17,18 @@ namespace PPT
             label2.Hide();
             label3.Hide();
             label4.Hide();
+            label5.Hide();
             JugImagen.Hide();
             MaqImagen.Hide();
             label2.Text = "";
+            label5.Text = "Ronda " + (i + 1);
         }
         public static int[] datos = new int[100];
         public static Random aleatorio = new Random();
         public static int valorm,valorj,gana,boton = new int();
         int i = 0;
         public static List<int> lista = new List<int>();
+        public static bool entrenamiento = false;
 
         public void conversor(int num,Label etiqueta,PictureBox imagen)
         {
@@ -90,33 +93,70 @@ namespace PPT
 
         public void recopilacion(int victoria,int movimiento)
         {
-            if(victoria == 1)
+            if (entrenamiento == true)
             {
-                switch (movimiento)
+                if (victoria == 1)
                 {
-                    case 1: listBox1.Items.Add("Ronda " + i + ": Jugador Gana con Piedra, Maquina Pierde con Tijeras");
-                        break;
-                    case 2:
-                        listBox1.Items.Add("Ronda " + i + ": Jugador Gana con Papel, Maquina Pierde con Piedra");
-                        break;
-                    case 3:
-                        listBox1.Items.Add("Ronda " + i + ": Jugador Gana con Tijera, Maquina Pierde con Papel");
-                        break;
+                    switch (movimiento)
+                    {
+                        case 1:
+                            listBox1.Items.Add("Ronda " + i + ": Jugador Gana con Piedra, Maquina Pierde con Tijeras" + " (ENTRENAMIENTO)");
+                            break;
+                        case 2:
+                            listBox1.Items.Add("Ronda " + i + ": Jugador Gana con Papel, Maquina Pierde con Piedra" + " (ENTRENAMIENTO)");
+                            break;
+                        case 3:
+                            listBox1.Items.Add("Ronda " + i + ": Jugador Gana con Tijera, Maquina Pierde con Papel" + " (ENTRENAMIENTO)");
+                            break;
+                    }
+                }
+                else if (victoria == 0)
+                {
+                    switch (movimiento)
+                    {
+                        case 1:
+                            listBox1.Items.Add("Ronda " + i + ": Jugador Pierde con Piedra, Maquina Gana con Papel" + " (ENTRENAMIENTO)");
+                            break;
+                        case 2:
+                            listBox1.Items.Add("Ronda " + i + ": Jugador Pierde con Papel, Maquina Gana con Tijeras" + " (ENTRENAMIENTO)");
+                            break;
+                        case 3:
+                            listBox1.Items.Add("Ronda " + i + ": Jugador Pierde con Tijera, Maquina Gana con Piedra" + " (ENTRENAMIENTO)");
+                            break;
+                    }
                 }
             }
-            else if(victoria == 0)
+            else
             {
-                switch (movimiento)
+                if (victoria == 1)
                 {
-                    case 1:
-                        listBox1.Items.Add("Ronda " + i + ": Jugador Pierde con Piedra, Maquina Gana con Papel");
-                        break;
-                    case 2:
-                        listBox1.Items.Add("Ronda " + i + ": Jugador Pierde con Papel, Maquina Gana con Tijeras");
-                        break;
-                    case 3:
-                        listBox1.Items.Add("Ronda " + i + ": Jugador Pierde con Tijera, Maquina Gana con Piedra");
-                        break;
+                    switch (movimiento)
+                    {
+                        case 1:
+                            listBox1.Items.Add("Ronda " + i + ": Jugador Gana con Piedra, Maquina Pierde con Tijeras" + " (IA)");
+                            break;
+                        case 2:
+                            listBox1.Items.Add("Ronda " + i + ": Jugador Gana con Papel, Maquina Pierde con Piedra" + " (IA)");
+                            break;
+                        case 3:
+                            listBox1.Items.Add("Ronda " + i + ": Jugador Gana con Tijera, Maquina Pierde con Papel" + " (IA)");
+                            break;
+                    }
+                }
+                else if (victoria == 0)
+                {
+                    switch (movimiento)
+                    {
+                        case 1:
+                            listBox1.Items.Add("Ronda " + i + ": Jugador Pierde con Piedra, Maquina Gana con Papel" + " (IA)");
+                            break;
+                        case 2:
+                            listBox1.Items.Add("Ronda " + i + ": Jugador Pierde con Papel, Maquina Gana con Tijeras" + " (IA)");
+                            break;
+                        case 3:
+                            listBox1.Items.Add("Ronda " + i + ": Jugador Pierde con Tijera, Maquina Gana con Piedra" + " (IA)");
+                            break;
+                    }
                 }
             }
         }
@@ -160,7 +200,9 @@ namespace PPT
             button8.Show();
             label1.Show();
             label4.Show();
+            label5.Show();
             boton = 1;
+            entrenamiento = true;
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -175,7 +217,9 @@ namespace PPT
             button8.Show();
             label1.Show();
             label4.Show();
+            label5.Show();
             boton = 2;
+            entrenamiento = false;
         }
 
         private void button3_Click(object sender, EventArgs e)
@@ -282,6 +326,7 @@ namespace PPT
             MaqImagen.Hide();
             label2.Text = "";
             label3.Text = "";
+            label5.Text = "Ronda " + (i + 1);
         }
 
         private void button5_Click(object sender, EventArgs e)
@@ -303,6 +348,7 @@ namespace PPT
             label2.Hide();
             label3.Hide();
             label4.Hide();
+            label5.Hide();
 
             listBox1.Hide();
             JugImagen.Hide();

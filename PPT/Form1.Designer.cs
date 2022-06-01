@@ -44,6 +44,7 @@
             this.listBox1 = new System.Windows.Forms.ListBox();
             this.JugImagen = new System.Windows.Forms.PictureBox();
             this.MaqImagen = new System.Windows.Forms.PictureBox();
+            this.label5 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.JugImagen)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.MaqImagen)).BeginInit();
             this.SuspendLayout();
@@ -188,9 +189,9 @@
             // 
             this.listBox1.FormattingEnabled = true;
             this.listBox1.ItemHeight = 15;
-            this.listBox1.Location = new System.Drawing.Point(33, 62);
+            this.listBox1.Location = new System.Drawing.Point(12, 62);
             this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(376, 184);
+            this.listBox1.Size = new System.Drawing.Size(438, 184);
             this.listBox1.TabIndex = 13;
             // 
             // JugImagen
@@ -213,12 +214,23 @@
             this.MaqImagen.TabIndex = 17;
             this.MaqImagen.TabStop = false;
             // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label5.Location = new System.Drawing.Point(351, 23);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(59, 23);
+            this.label5.TabIndex = 18;
+            this.label5.Text = "Ronda ";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::PPT.Properties.Resources.sky_green_clear_white_wallpaper_preview_ccexpress;
             this.ClientSize = new System.Drawing.Size(462, 342);
+            this.Controls.Add(this.label5);
             this.Controls.Add(this.MaqImagen);
             this.Controls.Add(this.JugImagen);
             this.Controls.Add(this.button9);
@@ -263,5 +275,6 @@
         private ListBox listBox1;
         private PictureBox JugImagen;
         private PictureBox MaqImagen;
+        private Label label5;
     }
 }
