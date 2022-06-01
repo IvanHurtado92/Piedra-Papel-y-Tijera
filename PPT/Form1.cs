@@ -30,12 +30,12 @@ namespace PPT
         public static List<int> lista = new List<int>();
         public static bool entrenamiento = false;
 
-        public void conversor(int num,Label etiqueta,PictureBox imagen)
+        public void conversor(int num, Label etiqueta, PictureBox imagen)
         {
-            if(num == 1)
+            if (num == 1)
             {
                 etiqueta.Text = "Piedra";
-                imagen.Image = Properties.Resources.puño80x80; 
+                imagen.Image = Properties.Resources.puño80x80;
 
             }
             else if (num == 2)
@@ -50,14 +50,14 @@ namespace PPT
             }
         }
 
-        public void victoria(int jug,int maq)
+        public void victoria(int jug, int maq)
         {
-            if(jug == 1 && maq == 3)
+            if (jug == 1 && maq == 3)
             {
                 MessageBox.Show("Ganó el jugador");
                 gana = 1;
             }
-            else if(jug == 1 && maq == 2)
+            else if (jug == 1 && maq == 2)
             {
                 MessageBox.Show("Ganó la IA");
                 gana = 0;
@@ -77,12 +77,12 @@ namespace PPT
                 MessageBox.Show("Ganó el jugador");
                 gana = 1;
             }
-            else if (jug == 3 && maq ==1)
+            else if (jug == 3 && maq == 1)
             {
                 MessageBox.Show("Ganó la IA");
                 gana = 0;
             }
-            else if(jug == maq)
+            else if (jug == maq)
             {
                 MessageBox.Show("Empate");
                 gana = 2;
@@ -91,7 +91,7 @@ namespace PPT
             else if (boton == 2 && gana != 2) i++;
         }
 
-        public void recopilacion(int victoria,int movimiento)
+        public void recopilacion(int victoria, int movimiento)
         {
             if (entrenamiento == true)
             {
@@ -109,6 +109,7 @@ namespace PPT
                             listBox1.Items.Add("Ronda " + i + ": Jugador Gana con Tijera, Maquina Pierde con Papel" + " (ENTRENAMIENTO)");
                             break;
                     }
+                    label5.Text = "Ronda " + (i + 1);
                 }
                 else if (victoria == 0)
                 {
@@ -124,6 +125,7 @@ namespace PPT
                             listBox1.Items.Add("Ronda " + i + ": Jugador Pierde con Tijera, Maquina Gana con Piedra" + " (ENTRENAMIENTO)");
                             break;
                     }
+                    label5.Text = "Ronda " + (i + 1);
                 }
             }
             else
@@ -142,6 +144,7 @@ namespace PPT
                             listBox1.Items.Add("Ronda " + i + ": Jugador Gana con Tijera, Maquina Pierde con Papel" + " (IA)");
                             break;
                     }
+                    label5.Text = "Ronda " + (i + 1);
                 }
                 else if (victoria == 0)
                 {
@@ -157,35 +160,37 @@ namespace PPT
                             listBox1.Items.Add("Ronda " + i + ": Jugador Pierde con Tijera, Maquina Gana con Piedra" + " (IA)");
                             break;
                     }
+                    label5.Text = "Ronda " + (i + 1);
                 }
             }
+            label5.Hide();
         }
 
         public void basedatos(int val)
         {
-                switch (val)
-                {
-                    case 1:
-                        switch (valorj)
-                        {
-                            case 1:
-                                datos[i] = 2;
-                                break;
-                            case 2:
-                                datos[i] = 3;
-                                break;
-                            case 3:
-                                datos[i] = 1;
-                                break;
-                        }
-                            i++;
+            switch (val)
+            {
+                case 1:
+                    switch (valorj)
+                    {
+                        case 1:
+                            datos[i] = 2;
                             break;
-                    case 0:
-                        datos[i] = valorm;
-                            i++;
+                        case 2:
+                            datos[i] = 3;
                             break;
-                }
-                
+                        case 3:
+                            datos[i] = 1;
+                            break;
+                    }
+                    i++;
+                    break;
+                case 0:
+                    datos[i] = valorm;
+                    i++;
+                    break;
+            }
+
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -239,19 +244,19 @@ namespace PPT
             button8.Hide();
             button9.Show();
             valorj = 1;
-            if(boton == 1)
+            if (boton == 1)
             {
                 valorm = aleatorio.Next(1, 4);
             }
-            else if(boton == 2)
+            else if (boton == 2)
             {
-                int rand2 = aleatorio.Next(0,i);
+                int rand2 = aleatorio.Next(0, i);
                 valorm = datos[rand2];
-                
+
             }
             label2.Text = Convert.ToString(valorm);
-            conversor(valorj, label3,JugImagen);
-            conversor(valorm,label2,MaqImagen);
+            conversor(valorj, label3, JugImagen);
+            conversor(valorm, label2, MaqImagen);
             label2.Show();
             label3.Show();
             MaqImagen.Show();
@@ -275,7 +280,7 @@ namespace PPT
             {
                 int rand2 = aleatorio.Next(0, i);
                 valorm = datos[rand2];
-                
+
             }
             label2.Text = Convert.ToString(valorm);
             conversor(valorj, label3, JugImagen);
@@ -303,7 +308,7 @@ namespace PPT
             {
                 int rand2 = aleatorio.Next(0, i);
                 valorm = datos[rand2];
-                
+
             }
             label2.Text = Convert.ToString(valorm);
             conversor(valorj, label3, JugImagen);
@@ -326,13 +331,14 @@ namespace PPT
             MaqImagen.Hide();
             label2.Text = "";
             label3.Text = "";
-            label5.Text = "Ronda " + (i + 1);
+            label5.Show();
         }
 
         private void button5_Click(object sender, EventArgs e)
         {
             button1.Show();
-            if (i > 0) { 
+            if (i > 0)
+            {
                 button2.Show();
                 button3.Show();
             }
